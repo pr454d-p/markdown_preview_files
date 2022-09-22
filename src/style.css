@@ -2,24 +2,31 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: darkorchid;
 }
 .container{
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 30px;
+    grid-gap: .5rem;
     width: 100%;
 }
 #editor{
     border: 0;
-    height: 100vh;
+    height: 94vh;
     width: 100%;
+    padding-left: 1rem;
     background-color:aqua;
     bottom: 0;
 }
 #preview{
-    height: 100vh;
+    height: 94vh;
     width: 100%;
+    padding-left: 1rem;
     background-color: darkorchid;
+}
+.heading{
+    height: 4vh;
+    width: 100%;
+    padding-top: .2rem;
+    text-align: center;
 }

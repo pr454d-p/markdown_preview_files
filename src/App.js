@@ -9,9 +9,9 @@ function App() {
   ## H2
   **bold text**
   > blockquote
-  1. First item
-  2. Second item
-  3. Third item
+     1. First item
+     2. Second item
+     3. Third item
   \`code\`
   [title](https://www.example.com)
   ![alt text](image.jpg)
@@ -30,6 +30,12 @@ function App() {
   console.log(trsformed);
   return (
     <div className='container'>
+      <div className='heading' >
+        <h2>Editor</h2>
+      </div>
+      <div className='heading' >
+        <h2>Preview</h2>
+      </div>
       <div className='editor-left' > 
         <textarea id="editor" value={text} onChange={(words)=>setText(words.target.value)} > </textarea>        
       </div>
