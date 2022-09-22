@@ -1,0 +1,2 @@
+*{box-sizing:border-box;margin:0;padding:0}.container{grid-gap:.5rem;display:grid;grid-template-columns:1fr 1fr;height:100vh;width:100%}#editor{background-color:aqua;border:0;bottom:0}#editor,#preview{height:94vh;padding-left:1rem;width:100%}#preview{background-color:#9932cc}.heading{height:4vh;padding-top:.2rem;text-align:center;width:100%}
+/*# sourceMappingURL=main.b6e85e7e.css.map*/
